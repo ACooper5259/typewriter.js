@@ -6,3 +6,6 @@ for (const char of sentence) {
     process.stdout.write(char), delay;
   });
 }
+setTimeout(() => {
+  console.log("\n"), delay;
+});
